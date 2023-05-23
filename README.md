@@ -14,7 +14,6 @@ There are required settings that must be made available through app settings. Th
     "IncludeNumbers": true | false, //Should numbers be included in the generated strings
     "IncludeUpperCase": true | false, //Should upper case characters be included in the generated strings
     "IncludeSpecialCharacters": true | false, //Should special characters be included in the generated strings
-    "Length": 1 //Generated string length
   }
 }
 
