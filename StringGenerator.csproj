@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>AWLStringGenerator</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Alastair Little</Authors>
+    <Company>AWL</Company>
+    <Description>This provides a configurable string generator.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.2.3" />
+  </ItemGroup>
+
+</Project>
